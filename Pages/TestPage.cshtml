@@ -1,0 +1,13 @@
+@page
+@model TestPageModel
+@{
+    ViewData["Title"] = "Test page";
+}
+
+<div class="card bg-dark text-light">
+    <div class='card-body'>
+        Hey Jimmy, this is a test page!
+       
+        @Model.Message
+    </div>
+</div>
